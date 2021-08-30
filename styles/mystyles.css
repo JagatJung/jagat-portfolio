@@ -1,0 +1,140 @@
+body{
+    background-color: cornsilk;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.projects{
+    background-color: #FFC107;
+    padding-bottom: 50px;
+    margin-left: 50%;
+        
+}
+
+
+h1{
+    color: white;
+    font-size: 3vw;
+}
+
+.pContent{
+    margin-top: 2%;
+    color: rgb(32, 27, 27);
+    width: 68%;
+    padding: 4%;
+    font-size: 20px;
+    float: left;
+}
+
+b{
+    margin:10px;
+    margin-left: 0px;
+}
+.pPic{
+    margin-top: 5%;
+    width: 30%;
+    height: 64%;
+    float: left;
+    
+    
+}
+
+.Pimage{
+    width: 95%;
+    border-style: solid;
+    border-color: rgba(0, 0, 255, 0.418);
+    border-left: none;
+    border-top: none;
+    border-radius: 20px;
+    border-width: 8px;
+}
+
+#co{
+    color: black;
+    border-style: solid;
+    width: 90px;
+    border-color: rgb(255, 251, 42);
+    border-radius: 10px;
+    margin: 10px;
+    font-weight: bold;
+    
+}
+#co:hover{
+    border-color: rgba(0, 0, 0, 0.459);
+    background-color: black;
+    color: white;
+    
+}
+
+.navB{
+    color: blanchedalmond;
+    margin-left: 2%;
+    font-size: 60px;
+    padding-right: 15%;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    color: white;
+  }
+
+  .pLine{
+      
+      width: 80%;
+      height: 50px;
+      margin: 0px;
+      border:none ;
+      border-top: 10px solid rgba(0, 0, 0, 0.322);
+      margin-bottom: -8%;
+      
+  }
+@media screen and (max-width:500px){
+    .pContent{
+        float: none;
+        width: auto;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+    .pPic{
+        width: 100%;
+        margin-left: 12px;
+    }
+    #co{
+        border-style: none;
+        width: auto;
+        border-radius: 0px;
+    }
+    .projects{
+        padding-left: 6%;
+    }
+    .navB{
+        
+        font-size: 30px;
+        padding-right: 5%;
+    }
+    
+ 
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: cornsilk;
+  }
+  
+  img { 
+    width: 80%;
+    height: auto;
+    opacity: 0.9;
+    margin-left: -10%;
+  }
